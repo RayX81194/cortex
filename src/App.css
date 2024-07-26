@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.skip-to-main-content-link {
+  position: absolute;
+  left: -9999px;
+  z-index: 999;
+  padding: 1em;
+  background-color:#54b1a6;
+  color: white;
+  opacity: 0;
+}
+.skip-to-main-content-link:focus {
+  left: 5.8%;
+  transform: translateX(-50%);
+  opacity: 1;
+}
+
+.bg{
+  background-image: url("F:\Manish\Codes\Cortex\src\assets\bg.jpg");
+}
+
+
+.arrowani{
+  position: relative;
+  top:0px;
+  left:0px;
+  transition: linear 0.1s;
+}
+
+.arrowani:hover{
+  left:12px;
+}
+
+.wordani{
+  position: relative;
+  bottom:0px;
+  left:0px;
+  transition: ease-in 0.05s;
+}
+
+.wordani:hover{
+  bottom:12px;
+}
+

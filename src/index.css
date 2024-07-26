@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: #F0FAF9;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #857e7e;
+}
+
+@font-face {
+    font-family: "Vulf Sans";
+    src: url("./fonts/VulfSans-Regular.ttf");
+  }
+@font-face {
+    font-family: "Vulf Sans Bold";
+    src: url("./fonts/VulfSans-Bold.ttf");
+  }
+@font-face {
+    font-family: "Vulf Sans Medium";
+    src: url("./fonts/VulfSans-Medium.ttf");
+  }
+
+  @font-face {
+    font-family: "Vulf Sans Mono";
+    src: url("./fonts/VulfMonoDemo-Bold.otf");
+  }  
