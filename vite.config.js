@@ -7,5 +7,6 @@ export default defineConfig({
   server: {
     host: '0.0.0.0'  // or 'localhost' or your desired host
   }
+  base: "/cortex/"
 }
 )
