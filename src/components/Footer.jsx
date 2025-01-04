@@ -12,6 +12,8 @@ import "../App.css"
 
 
 const Footer = () => {
+
+    const year = new Date().getFullYear();
   return (
     <div className='lg:pt-20 xs:p-10 lg:px-36 '>
         <div className='flex flex-col items-start justify-start'>
@@ -90,7 +92,7 @@ const Footer = () => {
         </div>
         <div className='grid sm:grid-cols-5 xs:grid-rows-1 items-center sm:gap-5 lg:gap-5 xs:gap-2 justify-center pt-10 pb-2 px-40'>
             <img src={logo} className='w-[60px] h-[60px] sm:hidden blocc mb-4' />
-            <h1 className='font-vulfBold text-dimWhite text-[13px]'>Cortex © 2024</h1>
+            <h1 className='font-vulfBold text-dimWhite text-[13px]'>Cortex © {year}</h1>
             <h1 className='font-vulfBold hover:underline text-dimWhite text-[13px]'>Privacy</h1>
             <img src={logo} className='w-[60px] sm:block hidden h-[60px]' />
             <h1 className='font-vulfBold hover:underline text-dimWhite text-[13px]'>Accessibilty</h1>
